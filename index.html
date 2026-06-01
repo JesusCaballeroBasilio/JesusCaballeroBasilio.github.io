@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio | Luis Jesus Caballero</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top shadow">
+        <div class="container">
+
+            <a class="navbar-brand fw-bold" href="#">
+                Jesus Caballero Dev
+            </a>
+
+            <button class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#menu">
+
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="menu">
+
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sobre-mi">
+                            Sobre mí
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#habilidades">
+                            Habilidades
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#proyectos">
+                            Proyectos
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">
+                            Contacto
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <section id="sobre-mi" class="container hero-section">
+
+        <div class="row align-items-center">
+
+            <div class="col-md-6">
+
+                <h1 class="display-4 fw-bold">
+                    Luis Jesus Caballero Basilio
+                </h1>
+
+                <h3 class="text-info mb-4">
+                    Desarrollador Java Fullstack Jr
+                </h3>
+
+                <p class="lead">
+                    ¡Hola! Soy Jesus, un entusiasta de la programación y el desarrollo web.
+                </p>
+
+                <p>
+                    Actualmente estoy fortaleciendo mis
+                    habilidades en Java, JavaScript, HTML, CSS, SQL, Python y Bootstrap, 
+                    disfruto transformar ideas en proyectos funcionales, enfrentar
+                    nuevos desafios y seguir ampliando mis conocimientos en el desarrollado
+                    de software.</br></br>
+                    Mi objetivo es seguir desarrollándome profesionalmente y contribuir 
+                    en proyectos que generen un impacto positivo.
+                </p>
+
+                <div class="mt-4">
+
+                    <a href="#proyectos" class="btn btn-primary btn-lg me-2">
+                        Ver Proyectos
+                    </a>
+
+                    <a href="#contacto" class="btn btn-outline-light btn-lg">
+                        Contacto
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="col-md-6 text-center mt-5 mt-md-0">
+
+                <img src="Imagenes/Jesus_Caballero.jpeg" alt="Foto de Jesus Caballero" class="img-fluid rounded-circle shadow-lg foto-perfil">
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- HABILIDADES -->
+    <section id="habilidades" class="container py-5">
+
+        <h2 class="text-center mb-5 fw-bold">
+            Habilidades Técnicas
+        </h2>
+
+        <div class="text-center">
+
+             <span class="badge bg-success m-2 p-3">
+                SCRUM
+            </span>
+
+            <span class="badge bg-primary m-2 p-3">
+                Java
+            </span>
+
+            <span class="badge bg-warning text-dark m-2 p-3">
+                JavaScript
+            </span>
+
+            <span class="badge bg-danger m-2 p-3">
+                HTML
+            </span>
+
+            <span class="badge bg-secondary m-2 p-3">
+                CSS
+            </span>
+
+            <span class="badge bg-primary m-2 p-3">
+                Python
+            </span>
+
+            <span class="badge bg-success m-2 p-3">
+                SQL
+            </span>
+
+            <span class="badge bg-info text-dark m-2 p-3">
+                Bootstrap
+            </span>
+
+            <span class="badge bg-warning text-dark m-2 p-3">
+                Github
+            </span>
+
+            <span class="badge bg-info text-dark m-2 p-3">
+                Git
+            </span>
+
+        </div>
+
+    </section>
+
+    <!-- PROYECTOS -->
+    <section id="proyectos" class="container py-5">
+
+        <h2 class="text-center mb-5 fw-bold">
+            Proyectos
+        </h2>
+
+        <div class="row g-4">
+
+            <!-- PROYECTO 1 -->
+            <div class="col-md-4">
+
+                <div class="card proyecto-card h-100 shadow">
+
+                    <img src="Imagenes/TintaBrava.PNG"
+                        class="card-img-top"
+                        alt="Tinta Brava">
+
+                    <div class="card-body">
+
+                        <h5 class="card-title">
+                            Tinta Brava
+                        </h5>
+
+                        <p class="card-text">
+                            Ecommerce para una tienda de estampados de la marca Tinta Brava y tambien pedidos personalizados.
+                        </p>
+
+                    </div>
+
+                    <div class="card-footer border-0 bg-transparent">
+
+                        <a href="#"
+                        class="btn btn-outline-light w-100 btn-proyecto"
+
+                        data-titulo="Tinta Brava"
+
+                        data-imagenes="Imagenes/TintaBrava2.png,Imagenes/TintaBrava3.png,Imagenes/TB4.png,Imagenes/JesusTB.png,Imagenes/TB5.png
+                        ,Imagenes/TB6.png"
+
+                        data-descripcion="Es un proyecto de comercio electrónico desarrollado para una tienda de estampados personalizados. 
+                        El objetivo es ofrecer una plataforma donde los usuarios puedan explorar productos, consultar información detallada y 
+                        realizar pedidos de forma sencilla.<br></br>
+
+                        Durante su desarrollo construí una interfaz responsiva y atractiva. Además, diseñé la estructura de la base de datos 
+                        utilizando SQL, organizando entidades como productos, categorías, clientes y pedidos.<br></br>
+
+                        Este proyecto me permitió fortalecer mis conocimientos en desarrollo web, diseño de bases de datos y buenas prácticas de organización 
+                        de información, además de enfrentar desafíos relacionados con la experiencia de usuario y la presentación de productos."
+
+                        data-github="https://github.com/ElNovenoByte/TintaBrava.git"
+
+                        data-tecnologias="HTML, CSS, JavaScript, Bootstrap, Java, MySQL, Jira, Figma">
+
+                            <i class="bi bi-search"></i>
+                            Ver Proyecto
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- PROYECTO 2 -->
+            <div class="col-md-4">
+
+                <div class="card proyecto-card h-100 shadow">
+
+                    <img src="Imagenes/hackaton_landingPage.PNG"
+                        class="card-img-top"
+                        alt="Hackaton 1: Landing Page">
+
+                    <div class="card-body">
+
+                        <h5 class="card-title">
+                            Hackaton
+                        </h5>
+
+                        <p class="card-text">
+                            Landing Page de una tienda deportiva.
+                        </p>
+
+                    </div>
+
+                    <div class="card-footer border-0 bg-transparent">
+
+                        <a href="#"
+                        class="btn btn-outline-light w-100 btn-proyecto"
+
+                        data-titulo="Tienda de Playeras"
+
+                        data-imagenes="Imagenes/hackaton_landingPage2.png,Imagenes/hackaton_ropa_deportiva.png,/Imagenes/carrito_hackaton.png"
+
+                        data-descripcion="Landing page desarrollada durante mi primera experiencia en un hackathon.<br></br>El proyecto fue construido 
+                        en equipo con el objetivo de diseñar una propuesta digital para una tienda deportiva moderna. Además de contribuir al 
+                        desarrollo de la interfaz, participé en la organización del trabajo y la coordinación de tareas, fortaleciendo 
+                        habilidades de liderazgo, comunicación y resolución de problemas. Esta experiencia me permitió aplicar conocimientos de 
+                        desarrollo web en un entorno de colaboración y trabajo bajo presión, obteniendo una visión más completa del proceso de 
+                        creación de productos digital"
+
+                        data-github="https://github.com/HackatonLanginPage/HackatonLandingPage.git"
+
+                        data-tecnologias="HTML, CSS, JavaScript, Bootstrap">
+
+                            <i class="bi bi-search"></i>
+                            Ver Proyecto
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- PROYECTO 3 -->
+            <div class="col-md-4">
+
+                <div class="card proyecto-card h-100 shadow">
+
+                    <img src="Imagenes/hackaton2.PNG"
+                        class="card-img-top"
+                        alt="Cajero Funcional">
+
+                    <div class="card-body">
+
+                        <h5 class="card-title">
+                            Cajero Automatico en Java
+                        </h5>
+
+                        <p class="card-text">
+                            Aplicación desarrollada con el objetivo de simular el funcionamiento básico de un sistema bancario.
+                        </p>
+
+                    </div>
+
+                    <div class="card-footer border-0 bg-transparent">
+
+                        <a href="#"
+                        class="btn btn-outline-light w-100 btn-proyecto"
+
+                        data-titulo="Cajero Automatico en Java"
+
+                        data-imagenes="Imagenes/hackaton2.1.png,Imagenes/hackaton2.2.png,Imagenes/hackaton2.3.png"
+
+                        data-descripcion="El proyecto permite realizar operaciones como consultas de saldo, depósitos, retiros y validación de 
+                        fondos disponibles, aplicando conceptos fundamentales de programación orientada a objetos y lógica de negocio.
+
+                        Durante su desarrollo reforcé mis conocimientos en Java, estructuras de control, manejo de variables y diseño de flujos 
+                        de interacción con el usuario. También trabajé en la validación de datos y el control de errores para garantizar un 
+                        comportamiento consistente ante distintos escenarios de uso.
+
+                        Este proyecto me permitió comprender la importancia de la planificación de procesos, el análisis de requerimientos y la 
+                        construcción de soluciones enfocadas en la experiencia del usuario. Además, fortaleció mi capacidad para traducir 
+                        problemas cotidianos en aplicaciones funcionales mediante código estructurado y mantenible."
+
+                        data-github="https://github.com/NoeGus/Hackaton2.git"
+
+                        data-tecnologias="Java, Programación Orientada a Objetos, Estruturas de control, Lógica de negocio">
+
+                            <i class="bi bi-search"></i>
+                            Ver Proyecto
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="contacto" class="container py-5">
+
+        <h2 class="text-center fw-bold mb-5">
+            Contacto
+        </h2>
+
+        <div class="text-center contacto-info">
+
+            <p class="contacto">
+                <i class="bi bi-envelope-fill"></i>
+                jesus.caballerobasilio@outlook.com
+            </p>
+
+            <p class="contacto">
+                <i class="bi bi-telephone-fill"></i>
+                +52 55 3149 2755
+            </p>
+
+            <div class="redes mt-4">
+
+                <a href="https://github.com/JesusCaballeroBasilio" class="me-3" target="_blank">
+                    <i class="bi bi-github"></i>
+                </a>
+
+                <a href="https://www.linkedin.com/in/luisjesuscaballero/" class="me-3" target="_blank">
+                    <i class="bi bi-linkedin"></i>
+                </a>
+
+                <a href="https://www.instagram.com/jc_striker?igsh=MWFzczUwMXJ3NWZpdQ==" target="_blank">
+                    <i class="bi bi-instagram"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer class="bg-dark text-center text-white p-4">
+
+        <p class="mb-0">
+            © 2026 Luis Jesus Caballero Basilio
+        </p>
+
+    </footer>
+
+    <div class="modal fade" id="modalProyecto" tabindex="-1">
+
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+
+            <div class="modal-content bg-dark text-white">
+
+                <div class="modal-header">
+
+                    <h5 class="modal-title" id="modalTitulo">
+                        Proyecto
+                    </h5>
+
+                    <button
+                        type="button"
+                        class="btn-close btn-close-white"
+                        data-bs-dismiss="modal">
+                    </button>
+
+                </div>
+
+                <div class="modal-body">
+
+                    <!--Aqui abajo-->
+                    <div id="carouselProyecto"
+                        class="carousel slide mb-3">
+
+                        <div class="carousel-inner"
+                            id="carouselContenido">
+
+                        </div>
+
+                        <button class="carousel-control-prev"
+                                type="button"
+                                data-bs-target="#carouselProyecto"
+                                data-bs-slide="prev">
+
+                            <span class="carousel-control-prev-icon"></span>
+
+                        </button>
+
+                        <button class="carousel-control-next"
+                                type="button"
+                                data-bs-target="#carouselProyecto"
+                                data-bs-slide="next">
+
+                            <span class="carousel-control-next-icon"></span>
+
+                        </button>
+
+                    </div>
+
+                    <p id="modalDescripcion"></p>
+
+                    <h6>Tecnologías:</h6>
+
+                    <p id="modalTecnologias"></p>
+
+                </div>
+
+                <div class="modal-footer">
+
+                    <a
+                        id="modalGithub"
+                        href="#"
+                        target="_blank"
+                        class="btn btn-primary">
+
+                        <i class="bi bi-github"></i>
+                        GitHub
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>

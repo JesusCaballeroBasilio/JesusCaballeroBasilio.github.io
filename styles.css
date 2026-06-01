@@ -1,0 +1,99 @@
+body{
+    background-color: #0f172a;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* HERO */
+.hero-section{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+/* FOTO */
+.foto-perfil{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border: 5px solid #38bdf8;
+}
+
+p{
+    text-align:justify
+}
+
+/* TITULOS */
+h2{
+    color: #38bdf8;
+}
+
+/* CARDS */
+.proyecto-card{
+    background-color: #1e293b;
+    border: none;
+    transition: 0.3s;
+}
+
+.proyecto-card:hover{
+    transform: translateY(-10px);
+}
+
+.card-title{
+    color: #38bdf8;
+}
+
+.card-text{
+    color: #cbd5e1;
+}
+
+/* CONTACTO */
+.contacto-info p{
+    font-size: 1.2rem;
+}
+
+/* ICONOS */
+.redes a{
+    color: white;
+    font-size: 2rem;
+    transition: 0.3s;
+}
+
+.redes a:hover{
+    color: #38bdf8;
+}
+
+/* NAVBAR */
+.navbar{
+    backdrop-filter: blur(10px);
+}
+
+/* BADGES */
+.badge{
+    font-size: 1rem;
+    transition: 0.3s;
+}
+
+.badge:hover{
+    transform: scale(1.1);
+}
+
+/* RESPONSIVE */
+@media(max-width:768px){
+
+    .hero-section{
+        text-align: center;
+        padding-top: 120px;
+    }
+
+    .foto-perfil{
+        width: 220px;
+        height: 220px;
+    }
+
+}
+
+.carousel-item img{
+    max-height: 500px;
+    object-fit: contain;
+}
